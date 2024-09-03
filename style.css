@@ -1,0 +1,108 @@
+/* Estilos básicos */
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff0000; /* Azul oscuro */
+}
+
+.navbar-brand img {
+    max-height: 50px; /* Ajusta el tamaño del logo */
+}
+
+.navbar-nav .nav-link {
+    color:  #ffffff !important; /* Rojo para el texto de los enlaces */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcccc !important; /* Rojo claro en hover */
+}
+
+footer {
+    background-color: #003366; /* Azul oscuro */
+    color: #ffffff; /* Texto blanco */
+}
+
+.carousel-item img {
+    height: 400px; /* Ajusta la altura de las imágenes del slider */
+    object-fit: cover; /* Asegura que la imagen cubra el área del contenedor */
+    transition: transform 1s ease; /* Animación suave */
+}
+
+.carousel-item img:hover {
+    transform: scale(1.05); /* Zoom suave en hover */
+}
+
+h1 {
+    color: #003366; /* Azul oscuro para el encabezado */
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+
+/* Animación de desvanecimiento */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#content {
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+.card-img-top {
+    height: 200px; /* Ajusta la altura de las imágenes de los productos */
+    object-fit: cover; /* Asegura que la imagen cubra el área del contenedor */
+    transition: transform 0.3s ease; /* Animación suave */
+}
+
+.card-img-top:hover {
+    transform: scale(1.05); /* Zoom suave en hover */
+}
+
+h1 {
+    color: #003366; /* Azul oscuro para el encabezado */
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    color: #003366; /* Azul oscuro para los títulos de los productos */
+}
+
+.card-text {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    /* Espacio adicional entre líneas para mejor lectura */
+}
+
+/* Animación de desvanecimiento */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#content {
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
